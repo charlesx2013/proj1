@@ -1,0 +1,5 @@
+<%= flash[:error] %>
+<%= simple_form_for @pokemon do |f| %>
+  <%= f.input :name, label: 'Name of Pokemon' %>
+  <%= f.button :submit %>
+<% end %>
